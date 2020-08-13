@@ -25,9 +25,17 @@ x-=y;
 
 
 //====== by more than 1
-x+=y;
-x-=y;
-x*=y;
-x/=y;
+// x+=y;
+// x-=y;
+// x*=y;
+// x/=y;
 
+
+/// QUIZ
+
+var x = 3;
+var y = x++;
+console.log(y); // 3
+y += 1;
+console.log(y); //4
 
