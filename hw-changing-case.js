@@ -6,9 +6,8 @@ Fist character of name has to be capitalized
 
 var name = prompt("What is your name?");
 var firstLetter = name.slice(0,1).toUpperCase();
-var nameLeftover = name.slice(1,10);
+var nameLeftover = name.slice(1,10).toLowerCase();
 console.log("Hello " + firstLetter + nameLeftover);
-
 
 
 /// COURSE ANSWER
