@@ -13,3 +13,9 @@ var totalCharacters = 140;
 var charactersLeft = message.length - totalCharacters;
 
 console.log("You have written " + message.length + " characters," + " you have " + charactersLeft +" characters left.");
+
+
+/////// COURSE ANSWER
+var tweet = prompt("Please enter your tweet");
+var tweetCount = tweet.length;
+alert("You have written" + tweetCount + "characters, you have" + (140-tweetCount) + "characters left");
