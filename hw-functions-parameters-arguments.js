@@ -59,5 +59,6 @@ function getMilk(money) {
   console.log("enterHouse");
 }
 
-getMilk(10);
+getMilk(1);
 
+// Math.floor used to round down decimal numbers
