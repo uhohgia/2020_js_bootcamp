@@ -34,8 +34,6 @@ function lifeInWeeks(age){
 lifeInWeeks(51);
 
 
-
-
 /*
 COURSE ANSWER
 */
