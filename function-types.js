@@ -1,6 +1,8 @@
 // Functions
 
-/*Type 1 : simple function */
+/*******************
+Type 1 : simple function 
+*******************/
 function getMilk() {   
   console.log("Say something");
 }
@@ -8,10 +10,10 @@ function getMilk() {
 getMilk();
 
 
-/*
+/*******************
 Type 2 : Adding parameter
 Parameter in paranthesis is a variable
-*/
+*******************/
 function getMilk(bottles) {   
   var cost = bottles * 1.5;
 }
@@ -23,9 +25,9 @@ Value replaces "parameter variable in function"
 getMilk(2);
 
 
-/*
+/******************
 Type 3 : Output and Return values
-*/
+******************/
 function getMilk(money) {   
   return money % 1.5;
 
