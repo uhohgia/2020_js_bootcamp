@@ -9,9 +9,9 @@ if guest is not return maybe later message
 function party(name){
 	var guestlist = ["angie", "jack", "pam", "james", "kris", "joe"];
 	if(guestlist.includes(name)){
-		console.log("welcome");
+		console.log("Welcome!");
 	}else{
-		console.log("later");
+		console.log("Sorry, maybe next time.");
 	}
 }
 
