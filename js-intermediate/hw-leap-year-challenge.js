@@ -25,41 +25,29 @@ Is year 2100 leap year?
 2100 / 400 = 5.25 (Not Leap)
 Year 2100 is Not Leap.
 
-
 Ouput 1: Leap year.
 Ouput 2: Not leap year.
-
 */
+
+// COURSE ANSWER
 
 function isLeap(year){
-
-if((year % 4)&&(year % 100)){
-	console.log("Not leap");
-}
-
-if((year % 4)&&(year % 100) && (year % 400)){
-	console.log("leap!");
-}
-
-/*	if(year % 4 ){
-		console.log("divisible by 4 is leap");
+	if(year % 4 === 0){
+		console.log("Leap year.");
+		if(year % 100 === 0){
+			console.log("Not leap year.");
+			if(year % 400 === 0){
+				console.log("Not lear year.");
+			}else{
+				console.log("Leap year.");
+			}			
+		}else{
+			console.log("Leap year.");
+		}
 	}else{
-		console.log("not divisible by 4 so is not leap")
+		console.log("Not leap year.");
 	}
-
-	if(year % 100){
-		console.log("divisible by 100 is not leap");
-	}else{
-		console.log("divisible by 100 is leap");
-	}
-
-	if(year % 400){
-		console.log("divisible by 400 is not leap");
-	}else{
-		console.log("divisible by 400 is leap!!");
-	}
-*/
 }
 
 isLeap(2400); // Leap year
-// isLeap(1989); // Not leap year 
+isLeap(1989); // Not leap year 
