@@ -20,3 +20,20 @@ while(bottles >= 0) /* do something if statement is true*/{
 	bottles--;
 	console.log("Take one down and pass it around, " + bottles + " bottles of beer on the wall.");
 }
+
+
+
+// COURSE ANSWER
+
+var numberOfBottles = 99
+while (numberOfBottles >= 0) {
+    var bottleWord = "bottle";
+    if (numberOfBottles === 1) {
+        bottleWord = "bottles";
+    } 
+    console.log(numberOfBottles + " " + bottleWord + " of beer on the wall");
+    console.log(numberOfBottles + " " + bottleWord + " of beer,");
+    console.log("Take one down, pass it around,");
+	numberOfBottles--;
+    console.log(numberOfBottles + " " + bottleWord + " of beer on the wall.");
+}
