@@ -13,6 +13,7 @@ Go the store and buy some more, 99 bottles of beer on the wall.
 */
 
 // declare initial value
+
 var bottles = 99;
 
 while(bottles >= 0) /* do something if statement is true*/{
@@ -37,3 +38,5 @@ while (numberOfBottles >= 0) {
 	numberOfBottles--;
     console.log(numberOfBottles + " " + bottleWord + " of beer on the wall.");
 }
+
+
