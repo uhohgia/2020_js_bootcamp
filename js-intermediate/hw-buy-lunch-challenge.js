@@ -15,12 +15,21 @@ Michael is going to buy lunch today!
 */
 
 var names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
-
 function whosPaying(names){
-	var numberofPeople = names.length();
-
-	Math.random(numberofPeople);
+	var numberOfPeople = names.length;
+	winnerName = Math.random(numberofPeople);
 	return winnerName + " is going to buy lunch today!";
 }
 
+
+whosPaying();
+
+// COURSE ANSWER
+var names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
+function whosPaying(names){
+	var numberofPeople = names.length;
+	var randomPersonPosition = Math.floor(Math.random()*numberofPeople);
+	var randomPerson = names[randomPersonPosition];
+	return randomPerson + " is going to buy lunch today!";
+}
 whosPaying();
