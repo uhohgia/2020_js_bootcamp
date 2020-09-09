@@ -20,8 +20,9 @@ and get
 [0,1,1]
 as the output
 
-IMPORTANT: The solution checker is expecting an array  as the correct output.
-The result should be return from the function as an ouput
+IMPORTANT: 
+The solution checker is expecting an array  as the correct output.
+The result should be returned from the function as an ouput
 First 2 numbers of the sequence mus be 0 and 1.
 Also, if you decide to create a for  loop, make sure you explicitly specify var i = 0
 example: for (var i = 0; i < 10; i ++)
@@ -30,9 +31,8 @@ example: for (var i = 0; i < 10; i ++)
 
 var output = [];
 function fibonacciGenerator(n) {
-	for (var i = 0 ; i >= 0; i++){
-		
-	}
+
+	
 	console.log(output);
 }
 fibonacciGenerator(1);
