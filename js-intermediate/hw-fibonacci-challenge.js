@@ -34,7 +34,7 @@ function fibonacciGenerator(n) {
 	if(n === 1){
 		output = [0];
 	}else if(n === 2){
-		ouput = [0,1];
+		output = [0,1];
 	}else{
 		output = [0,1];
 		for(var i = 2; i < n; i++){
